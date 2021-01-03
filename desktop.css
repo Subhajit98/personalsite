@@ -1,0 +1,161 @@
+.col-1 {width:8.33%;}
+.col-2 {width:16.66%;}
+.col-3 {width:25%;}
+.col-4 {width:33.33%;}
+.col-5 {width:41.66%;}
+.col-6 {width:50%;}
+.col-7 {width:58.33%;}
+.col-8 {width:66.66%;}
+.col-9 {width:75%;}
+.col-10 {width:83.33%;}
+.col-11 {width:91.66%;}
+.col-12 {width:100%;}
+
+
+
+
+
+
+/* Nav Bar Design Start Here */
+.nav-logo{
+    text-align: left;
+}
+
+.nav-heading h1{
+    text-align: center;
+}
+
+.navbar-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-menu a{
+    padding: 5px 10px;
+    margin: 20px 1px;
+    background-color: transparent;
+    
+}
+/* Nav Bar Design End Here */
+
+
+
+
+
+/* Profile Design Start Here */
+.profile .top-weather-icon{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    height: 120px;
+    width: 120px;
+    transition: width 2s, height 2s transform 3s;
+}
+.profile .top-weather-icon:hover{
+    width:140px ;
+    height: 140px;
+}
+
+.profile .bottom-weather-icon{
+    position: absolute;
+    left: 100px;
+    bottom: 20px;
+    height: 110px;
+    width: 110px;
+    transition: width 2s, height 2s transform 3s;
+}
+.profile .bottom-weather-icon:hover{
+    width:120px ;
+    height: 120px;
+}
+
+.profile-desc p{
+    margin: 0px auto ;
+    color: gray;
+    text-align: center;
+    width: 90%;
+
+}
+
+/* Profile Design End Here */
+
+
+/* About Me Design Start Here */
+
+.aboutme-image {
+    margin: 150px auto;
+    
+}
+
+.aboutme-image img{
+    
+    height: 240px;
+    width: 200px;
+    
+}
+.aboutme-desc p{
+    text-align: left;
+}
+
+/* About Me Design End Here */
+
+
+
+
+
+
+
+/* Professional Experience Design Start Here */
+.professional-experience{
+    padding: 1% 5%;
+}
+/* Professional Experience Design End Here */
+
+
+
+
+
+/* Achievement Design Start Here */
+.achievement{
+    padding-right: 20px;  
+}
+
+.contact{
+    padding-left: 20px; 
+}
+
+.contact button{
+    width: 105px; 
+}
+
+.contact-links{
+    position: relative;
+}
+
+.media-buttons{
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+    margin-top: 200px;
+}
+
+/* Achievement Design End Here */
+
+
+
+/* Footer Design Start Here */
+
+.footer-menu{
+    margin-top: 5px;
+   
+    display: flex;
+    
+}
+
+.footer-menu a{    
+    
+  padding: 0 20px;
+}
+
+/* Footer Design End Here */
